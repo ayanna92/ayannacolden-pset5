@@ -16,7 +16,7 @@
 		55391F001DF3241C00B553AC /* pset5_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55391EFF1DF3241C00B553AC /* pset5_2Tests.swift */; };
 		55391F0B1DF3241C00B553AC /* pset5_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55391F0A1DF3241C00B553AC /* pset5_2UITests.swift */; };
 		55391F191DF3243800B553AC /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55391F181DF3243800B553AC /* DatabaseHelper.swift */; };
-		55391F3A1DF3256200B553AC /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55391F251DF324C200B553AC /* SQLite.framework */; };
+		55391F3A1DF3256200B553AC /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55391F251DF324C200B553AC /* SQLite.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		55391F3D1DF3271C00B553AC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55391F3C1DF3271C00B553AC /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -269,6 +269,7 @@
 				TargetAttributes = {
 					55391EE41DF3241B00B553AC = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49T7C245FH;
 						ProvisioningStyle = Automatic;
 					};
 					55391EFA1DF3241C00B553AC = {
@@ -549,9 +550,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49T7C245FH;
 				INFOPLIST_FILE = "pset5-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.pset5-2";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ayanna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -561,9 +563,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49T7C245FH;
 				INFOPLIST_FILE = "pset5-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.pset5-2";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ayanna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

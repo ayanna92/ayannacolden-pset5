@@ -155,6 +155,20 @@ class MasterViewController: UITableViewController {
         }
     }
     
+    // When the user quits the app encode state.
+    override func encodeRestorableState(with coder: NSCoder) {
+        
+        super.encodeRestorableState(with: coder)
+    }
+    
+    // When the user opens the app. Decode state.
+    override func decodeRestorableState(with coder: NSCoder) {
+        
+        super.decodeRestorableState(with: coder)
+        
+        
+    }
+    
     
 }
 
